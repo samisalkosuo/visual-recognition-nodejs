@@ -1,7 +1,7 @@
 ---
 declared-services:
   visual-recognition-service:
-    label: watson_vision_combined
+    label: Visual Recognition-i2
     plan: free
 applications:
 - name: visual-recognition-demo
