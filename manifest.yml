@@ -1,14 +1,10 @@
 ---
-declared-services:
-  visual-recognition-service:
-    label: Visual Recognition-i2
-    plan: free
 applications:
 - name: visual-recognition-demo
   path: .
   command: npm start
   memory: 512M
   services:
-  - visual-recognition-service
+  - Visual Recognition-i2
   env:
     NODE_ENV: production
